@@ -11,7 +11,8 @@ const App = () => {
   };
   return (
     <>
-      <CreateNote createNote={createNote} /> <AllNotes notes={notes} />
+      <CreateNote createNote={createNote} />
+      <AllNotes notes={notes} />
     </>
   );
 };
